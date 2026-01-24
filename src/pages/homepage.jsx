@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Activity, Heart, Shield } from 'lucide-react';
 // Import other sections
 import Treatments from '../components/treatments';
+import Appointment from '../components/appointment';
 import Services from './services';
 import Feedback from './feedback';
 import ContactUs from './contactus';
@@ -10,8 +11,10 @@ import MapPage from './map';
 const HomePage = () => {
     return (
         <div className="min-h-screen pt-20">
-            {/* Hero Section */}
+            {/* ... (previous sections) ... */}
+
             <section id="home" className="relative px-4 py-16 mx-auto sm:px-6 lg:px-8 max-w-7xl lg:py-24">
+                {/* ... (hero content) ... */}
                 <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-8 items-center">
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
@@ -28,7 +31,7 @@ const HomePage = () => {
                         <div className="mt-8 sm:flex">
                             <div className="rounded-md shadow">
                                 <a
-                                    href="#contact"
+                                    href="#appointment"
                                     className="flex items-center justify-center px-8 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 md:py-4 md:text-lg md:px-10 transition-transform transform hover:scale-105"
                                 >
                                     अपॉइंटमेंट बुक करें
@@ -90,6 +93,10 @@ const HomePage = () => {
 
             <section id="services">
                 <Services />
+            </section>
+
+            <section id="appointment">
+                <Appointment />
             </section>
 
             <section id="feedback">

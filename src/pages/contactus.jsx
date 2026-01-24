@@ -39,7 +39,7 @@ const ContactUs = () => {
                                 </div>
                                 <div>
                                     <p className="font-medium text-gray-900">कॉल करें</p>
-                                    <p className="text-gray-600">+91 94511 08552</p>
+                                    <p className="text-gray-600">+91 99199 14700 </p>
                                 </div>
                             </div>
                             <div className="flex items-start space-x-4">
