@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply text-slate-800 antialiased;
+        background-color: #f0fdfa;
+        /* Fallback color */
+        position: relative;
+    }
+
+    /* Fixed Background Layer for Full Coverage */
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: -50;
+
+        /* The Biology Pattern */
+        background-image: url('/medical-decor.png');
+        background-repeat: repeat;
+        background-size: 500px;
+        background-position: center;
+
+        /* Blending */
+        mix-blend-mode: multiply;
+        opacity: 0.15;
+        pointer-events: none;
+    }
+
+    /* Soft Gradient Overlay */
+    body::after {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: -49;
+        background:
+            radial-gradient(circle at 10% 20%, rgba(20, 184, 166, 0.1), transparent 40%),
+            radial-gradient(circle at 90% 80%, rgba(59, 130, 246, 0.1), transparent 40%);
+        pointer-events: none;
+    }
+}
+
+/* Glassmorphism Utilities */
+.glass {
+    @apply bg-white/70 backdrop-blur-lg border border-white/20 shadow-xl;
+}
+
+.glass-dark {
+    @apply bg-black/70 backdrop-blur-lg border border-white/10 shadow-xl text-white;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-slate-300 rounded-full;
+}
+
+
+/* Marquee Animation */
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+}
+
+.animate-marquee:hover {
+    animation-play-state: paused;
+}
