@@ -93,7 +93,7 @@ const Footer = () => {
 
                 <div className="mt-16 border-t border-gray-800 pt-8 text-center">
                     <p className="text-gray-500 text-sm mb-4">
-                        &copy; 2024 Ma Gayatri Homeopathic Clinic. All Rights Reserved.
+                        &copy; 2026 Ma Gayatri Homeopathic Clinic. All Rights Reserved.
                     </p>
 
                     {/* Scrolling Credit Line */}
