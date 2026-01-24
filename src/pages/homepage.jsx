@@ -3,6 +3,7 @@ import { ArrowRight, Activity, Heart, Shield } from 'lucide-react';
 // Import other sections
 import Treatments from '../components/treatments';
 import Appointment from '../components/appointment';
+import Gallery from '../components/gallery';
 import Services from './services';
 import Feedback from './feedback';
 import ContactUs from './contactus';
@@ -97,6 +98,10 @@ const HomePage = () => {
 
             <section id="appointment">
                 <Appointment />
+            </section>
+
+            <section id="gallery">
+                <Gallery />
             </section>
 
             <section id="feedback">
