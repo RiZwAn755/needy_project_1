@@ -23,7 +23,7 @@ const Appointment = () => {
         const phoneNumber = "919919914700";
 
         // Construct message
-        const message = `Namaste Doctor,\n\nI want to book an appointment.\n\n*Details:*\nName: ${name}\nMobile: ${mobile}\nTreatment: ${treatment}\nDate: ${date}\nTime: ${time}\n\nPlease confirm my appointment.`;
+        const message = `Namaste Doctor Sahab,\n\nI want to book an appointment.\n\n*Details:*\nName: ${name}\nMobile: ${mobile}\nTreatment: ${treatment}\nDate: ${date}\nTime: ${time}\n\nPlease confirm my appointment.`;
 
         // WhatsApp URL
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
