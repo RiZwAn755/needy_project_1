@@ -5,6 +5,7 @@ import Treatments from '../components/treatments';
 import Appointment from '../components/appointment';
 import Gallery from '../components/gallery';
 import Achievements from '../components/achievements';
+import AboutDoctor from '../components/about-doctor';
 import Services from './services';
 import Feedback from './feedback';
 import ContactUs from './contactus';
@@ -88,6 +89,8 @@ const HomePage = () => {
                 </div>
             </section>
 
+
+
             {/* Other Sections */}
             <section id="treatments">
                 <Treatments />
@@ -119,6 +122,10 @@ const HomePage = () => {
 
             <section id="map">
                 <MapPage />
+            </section>
+
+            <section id="about-doctor">
+                <AboutDoctor />
             </section>
         </div>
     );
