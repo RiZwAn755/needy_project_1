@@ -4,6 +4,7 @@ import { ArrowRight, Activity, Heart, Shield } from 'lucide-react';
 import Treatments from '../components/treatments';
 import Appointment from '../components/appointment';
 import Gallery from '../components/gallery';
+import Achievements from '../components/achievements';
 import Services from './services';
 import Feedback from './feedback';
 import ContactUs from './contactus';
@@ -102,6 +103,10 @@ const HomePage = () => {
 
             <section id="gallery">
                 <Gallery />
+            </section>
+
+            <section id="achievements">
+                <Achievements />
             </section>
 
             <section id="feedback">
