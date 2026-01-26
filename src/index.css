@@ -42,8 +42,8 @@
         height: 100vh;
         z-index: -49;
         background:
-            radial-gradient(circle at 10% 20%, rgba(20, 184, 166, 0.1), transparent 40%),
-            radial-gradient(circle at 90% 80%, rgba(59, 130, 246, 0.1), transparent 40%);
+            radial-gradient(circle at 10% 20%, rgba(220, 38, 38, 0.1), transparent 40%),
+            radial-gradient(circle at 90% 80%, rgba(37, 99, 235, 0.1), transparent 40%);
         pointer-events: none;
     }
 }
@@ -71,23 +71,4 @@
 }
 
 
-/* Marquee Animation */
-@keyframes marquee {
-    0% {
-        transform: translateX(100%);
-    }
-
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
-.animate-marquee {
-    display: inline-block;
-    white-space: nowrap;
-    animation: marquee 15s linear infinite;
-}
-
-.animate-marquee:hover {
-    animation-play-state: paused;
-}
+/* Marquee Animation Managed in Tailwind Config */

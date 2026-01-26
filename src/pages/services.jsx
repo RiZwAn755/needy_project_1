@@ -13,7 +13,7 @@ const Services = () => {
         <div className="min-h-screen pt-24 pb-12">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="lg:text-center mb-12">
-                    <h2 className="text-base text-green-600 font-semibold tracking-wide uppercase">सुविधाएं</h2>
+                    <h2 className="text-base text-red-600 font-semibold tracking-wide uppercase">सुविधाएं</h2>
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                         आपकी सेवा में सदैव
                     </p>
@@ -30,7 +30,7 @@ const Services = () => {
                                 className="relative bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:bg-blue-50 transition-colors duration-300"
                             >
                                 <dt>
-                                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
+                                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white">
                                         <CheckCircle className="h-6 w-6" aria-hidden="true" />
                                     </div>
                                     <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{service.title}</p>

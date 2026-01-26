@@ -18,8 +18,8 @@ const Navbar = () => {
         <nav className="fixed w-full z-50 top-0 start-0 border-b border-white/20 glass">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="#home" className="flex items-center space-x-3 rtl:space-x-reverse">
-                    <Leaf className="h-8 w-8 text-green-600" />
-                    <span className="self-center text-2xl font-bold whitespace-nowrap text-green-800">
+                    <Leaf className="h-8 w-8 text-red-600" />
+                    <span className="self-center text-2xl font-bold whitespace-nowrap text-red-800">
                         माँ गायत्री <span className="text-blue-600">होमियो क्लिनिक</span>
                     </span>
                 </a>

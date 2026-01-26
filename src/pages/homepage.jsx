@@ -25,7 +25,7 @@ const HomePage = () => {
                         transition={{ duration: 0.8 }}
                     >
                         <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-                            <span className="block text-green-700">प्राकृतिक उपचार,</span>
+                            <span className="block text-red-700">प्राकृतिक उपचार,</span>
                             <span className="block text-blue-600">सम्पूर्ण स्वास्थ्य।</span>
                         </h1>
                         <p className="mt-4 text-xl text-gray-500 max-w-lg">
@@ -73,10 +73,10 @@ const HomePage = () => {
                             />
 
                             {/* Overlay Badge */}
-                            <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-md p-4 rounded-xl shadow-lg border border-green-100">
+                            <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-md p-4 rounded-xl shadow-lg border border-red-100">
                                 <div className="flex items-center space-x-3">
-                                    <div className="p-2 bg-green-100 rounded-full">
-                                        <Heart className="w-6 h-6 text-green-600" />
+                                    <div className="p-2 bg-red-100 rounded-full">
+                                        <Heart className="w-6 h-6 text-red-600" />
                                     </div>
                                     <div>
                                         <p className="font-bold text-gray-900 text-sm">डॉ. चंद्र प्रकाश प्रजापति</p>

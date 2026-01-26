@@ -43,7 +43,7 @@ const ContactUs = () => {
                                 </div>
                             </div>
                             <div className="flex items-start space-x-4">
-                                <div className="bg-green-100 p-3 rounded-full text-green-600">
+                                <div className="bg-red-100 p-3 rounded-full text-red-600">
                                     <Mail className="w-6 h-6" />
                                 </div>
                                 <div>

@@ -40,7 +40,7 @@ const MapPage = () => {
                         <h3 className="font-bold text-gray-900">By Train</h3>
                         <p className="text-gray-600 mt-2">Nearest Railway Station: Shrikrishna Nagar Railway Station </p>
                     </div>
-                    <div className="p-6 bg-green-50 rounded-lg">
+                    <div className="p-6 bg-red-50 rounded-lg">
                         <h3 className="font-bold text-gray-900">By Bus</h3>
                         <p className="text-gray-600 mt-2">Nearest Bus Stop: Badlapur Bus Stand  </p>
                     </div>

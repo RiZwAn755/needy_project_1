@@ -11,9 +11,9 @@ export default {
             },
             colors: {
                 // Define custom medical/premium colors here
-                'medical-primary': '#0ea5e9', // Sky blue example
-                'medical-accent': '#38bdf8',
-            }
+                'medical-primary': '#dc2626', // Red 600
+                'medical-accent': '#2563eb',  // Blue 600
+            },
         },
     },
     plugins: [],

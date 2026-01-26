@@ -6,7 +6,7 @@ const AboutDoctor = () => {
         <div className="py-20 bg-blue-50 relative overflow-hidden">
             {/* Decorative Elements */}
             <div className="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
-            <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-green-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
+            <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-red-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -65,7 +65,7 @@ const AboutDoctor = () => {
 
                         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <div className="flex items-center p-4 bg-white rounded-lg shadow-sm border border-gray-100">
-                                <Stethoscope className="w-10 h-10 text-green-500 mr-4" />
+                                <Stethoscope className="w-10 h-10 text-red-500 mr-4" />
                                 <div>
                                     <p className="font-bold text-gray-900">Holistic Approach</p>
                                     <p className="text-sm text-gray-500">Treating the whole person</p>
