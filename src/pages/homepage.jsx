@@ -11,6 +11,7 @@ import Services from './services';
 import Feedback from './feedback';
 import ContactUs from './contactus';
 import MapPage from './map';
+import FatherOfHomeopathy from '../components/fatherofHomeo';
 
 const HomePage = () => {
     return (
@@ -98,6 +99,9 @@ const HomePage = () => {
             </section>
             <section id="about-doctor">
                 <AboutDoctor />
+            </section>
+            <section id="father-of-homeopathy">
+                <FatherOfHomeopathy />
             </section>
 
             <section id="services">
