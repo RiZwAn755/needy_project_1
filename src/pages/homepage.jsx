@@ -20,24 +20,24 @@ const HomePage = () => {
 
             <section id="home" className="relative px-4 py-16 mx-auto sm:px-6 lg:px-8 max-w-7xl lg:py-24">
                 {/* ... (hero content) ... */}
-                <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-8 items-center">
+                <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-8 items-center">
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
                     >
-                        <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+                        <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
                             <span className="block text-red-700">प्राकृतिक उपचार,</span>
                             <span className="block text-blue-600">सम्पूर्ण स्वास्थ्य।</span>
                         </h1>
-                        <p className="mt-4 text-xl text-gray-500 max-w-lg">
+                        <p className="mt-4 text-base sm:text-xl text-gray-500 max-w-lg">
                             हम आपके स्वास्थ्य को प्राथमिकता देते हैं। सुरक्षित, प्रभावी और साइड-इफेक्ट मुक्त होम्योपैथिक उपचार के साथ एक स्वस्थ जीवन की ओर कदम बढ़ाएं।
                         </p>
                         <div className="mt-8 sm:flex">
                             <div className="rounded-md shadow">
                                 <a
                                     href="#appointment"
-                                    className="flex items-center justify-center px-8 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 md:py-4 md:text-lg md:px-10 transition-transform transform hover:scale-105"
+                                    className="flex items-center justify-center px-6 py-2 sm:px-8 sm:py-3 text-sm sm:text-base font-medium text-white bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 md:py-4 md:text-lg md:px-10 transition-transform transform hover:scale-105"
                                 >
                                     अपॉइंटमेंट बुक करें
                                     <ArrowRight className="ml-2 w-5 h-5" />
@@ -46,7 +46,7 @@ const HomePage = () => {
                             <div className="mt-3 sm:mt-0 sm:ml-3">
                                 <a
                                     href="#services"
-                                    className="flex items-center justify-center px-8 py-3 text-base font-medium text-blue-700 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 md:py-4 md:text-lg md:px-10 transition-transform transform hover:scale-105"
+                                    className="flex items-center justify-center px-6 py-2 sm:px-8 sm:py-3 text-sm sm:text-base font-medium text-blue-700 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 md:py-4 md:text-lg md:px-10 transition-transform transform hover:scale-105"
                                 >
                                     सेवाएं देखें
                                 </a>
@@ -135,7 +135,7 @@ const HomePage = () => {
             <section id="map">
                 <MapPage />
             </section>
-        
+
         </div>
     );
 };

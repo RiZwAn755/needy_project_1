@@ -8,8 +8,8 @@ const Footer = () => {
                     {/* Column 1: Clinic Info */}
                     <div>
                         <div className="flex items-center mb-6">
-                            <div className="p-2 bg-red-600 rounded-full mr-3">
-                                <Leaf className="h-6 w-6 text-white" />
+                            <div className="mr-3">
+                                <img src="/logo.png" alt="Logo" className="h-10 w-10 object-contain rounded-full border border-gray-600" />
                             </div>
                             <span className="text-xl font-bold">Ma Gayatri Homeopathic Clinic</span>
                         </div>
