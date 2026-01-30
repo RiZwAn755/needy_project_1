@@ -77,17 +77,25 @@ const AboutDoctor = () => {
                 आत्मविश्वास से आती है, इसलिए उनका उपचार प्राकृतिक, प्रभावी और
                 दीर्घकालिक परिणामों पर केंद्रित रहता है।
               </p>
+
+              <p>
+                डॉ. प्रजापति ने विशेष उपचारों में उत्कृष्टता प्राप्त की है, जिनमें
+                <span className="font-bold text-blue-700"> एलर्जी (Allergy), माइग्रेन (Migraine), थायराइड (Thyroid) </span>
+                और <span className="font-bold text-blue-700"> त्वचा रोग (Skin Care) </span> प्रमुख हैं।
+                इन बीमारियों के सुरक्षित और स्थायी उपचार के लिए वे क्षेत्र में अत्यधिक विश्वसनीय माने जाते हैं।
+              </p>
             </div>
 
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+
               <div className="flex items-center p-4 bg-white rounded-lg shadow-sm border border-gray-100">
                 <Stethoscope className="w-10 h-10 text-red-500 mr-4" />
                 <div>
                   <p className="font-bold text-gray-900">
-                    Advanced Skin & Hair Care
+                    प्रमुख उपचार (Key Treatments)
                   </p>
                   <p className="text-sm text-gray-500">
-                    Personalized cosmetic treatments
+                    Allergy, Migraine, Thyroid
                   </p>
                 </div>
               </div>
@@ -96,10 +104,10 @@ const AboutDoctor = () => {
                 <Award className="w-10 h-10 text-yellow-500 mr-4" />
                 <div>
                   <p className="font-bold text-gray-900">
-                    Certified Cosmetologist
+                    त्वचा एवं सौंदर्य (Skin Care)
                   </p>
                   <p className="text-sm text-gray-500">
-                    Trusted skin & beauty specialist
+                    Acne, Pigmentation, Hair Fall
                   </p>
                 </div>
               </div>
