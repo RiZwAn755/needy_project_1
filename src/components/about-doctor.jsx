@@ -31,7 +31,7 @@ const AboutDoctor = () => {
                                 <Clock className="w-8 h-8 text-blue-600" />
                             </div>
                             <div>
-                                <p className="text-3xl font-bold text-gray-900">10+</p>
+                                <p className="text-3xl font-bold text-gray-900">14+</p>
                                 <p className="text-sm text-gray-600 font-medium">Years Experience</p>
                             </div>
                         </div>

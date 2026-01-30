@@ -48,7 +48,7 @@ const ContactUs = () => {
                                 </div>
                                 <div>
                                     <p className="font-medium text-gray-900">ईमेल</p>
-                                    <p className="text-gray-600">drsp1136@gmail.com</p>
+                                    <p className="text-gray-600">dr.chandraprakash4700@gmail.com</p>
                                 </div>
                             </div>
                             <div className="flex items-start space-x-4">

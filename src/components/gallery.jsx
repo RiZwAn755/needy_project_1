@@ -2,9 +2,9 @@ import { motion } from 'framer-motion';
 
 const images = [
     { src: '/doctor-real.png', alt: 'Dr. Chandra Prakash Prajapati' },
-    { src: '/gallery-1.png', alt: 'Clinic Waiting Area' },
+    { src: '/clinic-1.png', alt: 'Clinic Waiting Area' },
     { src: '/gallery-2.png', alt: 'Homeopathic Medicines' },
-    { src: '/gallery-3.png', alt: 'Patient Consultation' }, // Placeholder for the 3rd image
+    { src: '/clinic-2.png', alt: 'Patient Consultation' }, // Placeholder for the 3rd image
 ];
 
 const Gallery = () => {

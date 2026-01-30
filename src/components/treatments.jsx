@@ -1,41 +1,35 @@
-import { Thermometer, Zap, Droplet, Sun, Wind, Activity } from "lucide-react";
+import { Thermometer, Zap, Droplet, Sun, Wind, Activity, Heart, Shield} from "lucide-react";
 
 const treatments = [
     {
-        title: "त्वचा रोग (Skin Diseases)",
-        desc: "सोरायसिस, एक्जिमा और एलर्जी का प्रभावी और स्थायी इलाज।",
-        icon: <Thermometer className="w-6 h-6" />,
-        image: "https://placehold.co/600x400/fee2e2/dc2626?text=Skin+Care",
-    },
-    {
-        title: "सांस की समस्याएं (Respiratory)",
-        desc: "अस्थमा, साइनसाइटिस और ब्रोंकाइटिस से प्राकृतिक राहत।",
-        icon: <Wind className="w-6 h-6" />,
-        image: "https://placehold.co/600x400/dbeafe/2563eb?text=Respiratory",
-    },
-    {
-        title: "पाचन विकार (Digestive)",
-        desc: "गैस, एसिडिटी और कब्ज जैसी समस्याओं का जड़ से समाधान।",
+        title: "गुर्दा पथरी (Kidney Stone)",
+        desc: "गुर्दे की पथरी को प्राकृतिक तरीके से घोलने और दोबारा बनने से रोकने का प्रभावी उपचार।",
         icon: <Droplet className="w-6 h-6" />,
-        image: "https://placehold.co/600x400/fee2e2/dc2626?text=Digestive",
+        image: "https://placehold.co/600x400/e0f2fe/0284c7?text=Kidney+Stone",
     },
     {
-        title: "जोड़ों का दर्द (Joint Pain)",
-        desc: "गठिया और पुराने दर्द में आरामदायक सुधार।",
+        title: "बाँझपन (Infertility)",
+        desc: "पुरुष एवं महिला दोनों में बाँझपन की समस्या के लिए सुरक्षित और प्राकृतिक उपचार।",
+        icon: <Heart className="w-6 h-6" />,
+        image: "https://placehold.co/600x400/fce7f3/db2777?text=Infertility",
+    },
+    {
+        title: "स्तन की गाँठ (Breast Lump)",
+        desc: "स्तन में बनने वाली गाँठ, दर्द और सूजन के लिए बिना सर्जरी उपचार।",
         icon: <Activity className="w-6 h-6" />,
-        image: "https://placehold.co/600x400/dbeafe/2563eb?text=Joint+Pain",
+        image: "https://placehold.co/600x400/fee2e2/dc2626?text=Breast+Lump",
     },
     {
-        title: "मौसमी बीमारियां (Viral Fever)",
-        desc: "बुखार, सर्दी और वायरल संक्रमण के लिए सुरक्षित दवाएं।",
-        icon: <Sun className="w-6 h-6" />,
-        image: "https://placehold.co/600x400/fee2e2/dc2626?text=Viral+Fever",
+        title: "बच्चेदानी की गाँठ (Uterine Fibroid)",
+        desc: "बच्चेदानी में बनने वाली गाँठ (फाइब्रॉइड) का प्राकृतिक और सुरक्षित इलाज।",
+        icon: <Shield className="w-6 h-6" />,
+        image: "https://placehold.co/600x400/fdf4ff/9333ea?text=Uterine+Fibroid",
     },
     {
-        title: "पुराने रोग (Chronic Diseases)",
-        desc: "लंबे समय से चल रही बीमारियों का विशेष उपचार।",
+        title: "उभरी हुई गाँठ (Swelling / Lump)",
+        desc: "शरीर के किसी भी भाग में उभरी हुई गाँठ के लिए प्रभावी प्राकृतिक उपचार।",
         icon: <Zap className="w-6 h-6" />,
-        image: "https://placehold.co/600x400/dbeafe/2563eb?text=Chronic+Diseases",
+        image: "https://placehold.co/600x400/ecfeff/0891b2?text=Body+Lump",
     },
 ];
 

@@ -4,6 +4,7 @@ import { ArrowRight, Activity, Heart, Shield } from 'lucide-react';
 import Treatments from '../components/treatments';
 import Appointment from '../components/appointment';
 import Gallery from '../components/gallery';
+import Videos from '../components/videos';
 import Achievements from '../components/achievements';
 import AboutDoctor from '../components/about-doctor';
 import Services from './services';
@@ -24,7 +25,7 @@ const HomePage = () => {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
                     >
-                        <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
+                        <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
                             <span className="block text-red-700">प्राकृतिक उपचार,</span>
                             <span className="block text-blue-600">सम्पूर्ण स्वास्थ्य।</span>
                         </h1>
@@ -80,7 +81,7 @@ const HomePage = () => {
                                     </div>
                                     <div>
                                         <p className="font-bold text-gray-900 text-sm">डॉ. चंद्र प्रकाश प्रजापति</p>
-                                        <p className="text-xs text-gray-500">वरिष्ठ होम्योपैथिक विशेषज्ञ</p>
+                                        <p className="text-xs text-gray-500">BHMS Cosmetologist Mumbai</p>
                                     </div>
                                 </div>
                             </div>
@@ -95,6 +96,9 @@ const HomePage = () => {
             <section id="treatments">
                 <Treatments />
             </section>
+            <section id="about-doctor">
+                <AboutDoctor />
+            </section>
 
             <section id="services">
                 <Services />
@@ -106,6 +110,10 @@ const HomePage = () => {
 
             <section id="gallery">
                 <Gallery />
+            </section>
+
+            <section id="videos">
+                <Videos />
             </section>
 
             <section id="achievements">
@@ -123,10 +131,7 @@ const HomePage = () => {
             <section id="map">
                 <MapPage />
             </section>
-
-            <section id="about-doctor">
-                <AboutDoctor />
-            </section>
+        
         </div>
     );
 };
