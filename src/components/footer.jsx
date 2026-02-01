@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram, Leaf, MapPin, Mail, Phone, ArrowRight } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Leaf, MapPin, Mail, Phone, ArrowRight, Clock } from 'lucide-react';
 
 const Footer = () => {
     return (
@@ -26,7 +26,7 @@ const Footer = () => {
                             <a href="#" className="text-gray-400 hover:text-red-500 transition-colors bg-gray-900 p-2 rounded-full">
                                 <Twitter className="h-5 w-5" />
                             </a>
-                            <a href="#" className="text-gray-400 hover:text-red-500 transition-colors bg-gray-900 p-2 rounded-full">
+                            <a href="https://www.instagram.com/drchandraprakash_" className="text-gray-400 hover:text-red-500 transition-colors bg-gray-900 p-2 rounded-full">
                                 <Instagram className="h-5 w-5" />
                             </a>
                         </div>
@@ -86,6 +86,10 @@ const Footer = () => {
                             <li className="flex items-center">
                                 <Phone className="h-5 w-5 text-red-500 mr-3 flex-shrink-0" />
                                 <a href="tel:+919451108552" className="text-gray-400 hover:text-white text-sm">+91-9919914700</a>
+                            </li>
+                            <li className="flex items-center">
+                                <Clock className="h-5 w-5 text-red-500 mr-3 flex-shrink-0" />
+                                <span className="text-gray-400 text-sm">Mon - Sat: 9-1 & 3-5</span>
                             </li>
                         </ul>
                     </div>

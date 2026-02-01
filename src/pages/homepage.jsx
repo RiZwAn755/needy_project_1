@@ -75,7 +75,7 @@ const HomePage = () => {
                             />
 
                             {/* Overlay Badge */}
-                            <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-md p-4 rounded-xl shadow-lg border border-red-100">
+                            <div className="absolute bottom-0 left-4 right-4 bg-white/90 backdrop-blur-md p-4 rounded-xl shadow-lg border border-red-100">
                                 <div className="flex items-center space-x-3">
                                     <div className="p-2 bg-red-100 rounded-full">
                                         <Heart className="w-6 h-6 text-red-600" />

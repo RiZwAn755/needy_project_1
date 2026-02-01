@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Send, Leaf } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Leaf, Clock } from 'lucide-react';
 
 const ContactUs = () => {
     return (
@@ -61,6 +61,17 @@ const ContactUs = () => {
                                         निकट श्रीकृष्ण नगर रेलवे स्टेशन,<br />
                                         सर्वेश्वरी स्कूल के सामने,<br />
                                         बदलापुर, जौनपुर 222125
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="flex items-start space-x-4">
+                                <div className="bg-green-100 p-3 rounded-full text-green-600">
+                                    <Clock className="w-6 h-6" />
+                                </div>
+                                <div>
+                                    <p className="font-medium text-gray-900">समय</p>
+                                    <p className="text-gray-600">
+                                        सोम - शनि: सुबह 9 से 1, दोपहर 3 से 5
                                     </p>
                                 </div>
                             </div>
