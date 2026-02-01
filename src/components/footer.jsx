@@ -11,7 +11,7 @@ const Footer = () => {
                             <div className="mr-3">
                                 <img src="/logo.png" alt="Logo" className="h-10 w-10 object-contain rounded-full border border-gray-600" />
                             </div>
-                            <span className="text-xl font-bold">Ma Gayatri Homeopathic Clinic</span>
+                            <span className="text-xl font-bold">Ma Gayatri Homeo Clinic</span>
                         </div>
                         <p className="text-gray-400 text-sm leading-relaxed mb-4">
                             Dr. Chandra Prakash Prajapati
@@ -81,11 +81,11 @@ const Footer = () => {
                             </li>
                             <li className="flex items-center">
                                 <Mail className="h-5 w-5 text-red-500 mr-3 flex-shrink-0" />
-                                <a href="mailto:drsp1136@gmail.com" className="text-gray-400 hover:text-white text-sm">drsp1136@gmail.com</a>
+                                <a href="mailto:drsp1136@gmail.com" className="text-gray-400 hover:text-white text-sm">dr.chandraprakash4700@gmail.com</a>
                             </li>
                             <li className="flex items-center">
                                 <Phone className="h-5 w-5 text-red-500 mr-3 flex-shrink-0" />
-                                <a href="tel:+919451108552" className="text-gray-400 hover:text-white text-sm">+91-9451108552</a>
+                                <a href="tel:+919451108552" className="text-gray-400 hover:text-white text-sm">+91-9919914700</a>
                             </li>
                         </ul>
                     </div>

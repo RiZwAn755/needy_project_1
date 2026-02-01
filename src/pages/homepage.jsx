@@ -83,6 +83,7 @@ const HomePage = () => {
                                     <div>
                                         <p className="font-bold text-gray-900 text-sm">डॉ. चंद्र प्रकाश प्रजापति</p>
                                         <p className="text-xs text-gray-500">BHMS Cosmetologist Mumbai</p>
+                                        <p className="text-xs text-gray-500">भूतपूर्व चिकित्सक साईं होमियो लकवा रिसर्च सेंटर</p>
                                     </div>
                                 </div>
                             </div>

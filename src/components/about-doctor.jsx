@@ -80,8 +80,8 @@ const AboutDoctor = () => {
 
               <p>
                 डॉ. प्रजापति ने विशेष उपचारों में उत्कृष्टता प्राप्त की है, जिनमें
-                <span className="font-bold text-blue-700"> एलर्जी (Allergy), माइग्रेन (Migraine), थायराइड (Thyroid) </span>
-                और <span className="font-bold text-blue-700"> त्वचा रोग (Skin Care) </span> प्रमुख हैं।
+                <span className="font-bold text-blue-700"> गुर्दा पथरी (Kidney Stone), बाँझपन (Infertility), बच्चेदानी की गाँठ (Uterine Fibroid) </span>
+                और <span className="font-bold text-blue-700"> स्तन की गाँठ (Breast Lump) </span> प्रमुख हैं।
                 इन बीमारियों के सुरक्षित और स्थायी उपचार के लिए वे क्षेत्र में अत्यधिक विश्वसनीय माने जाते हैं।
               </p>
             </div>
@@ -95,7 +95,7 @@ const AboutDoctor = () => {
                     प्रमुख उपचार (Key Treatments)
                   </p>
                   <p className="text-sm text-gray-500">
-                    Allergy, Migraine, Thyroid
+                    Kidney Stone, Infertility, Fibroids, Hysterectomy Alternatives
                   </p>
                 </div>
               </div>
