@@ -4,6 +4,11 @@ const videos = [
   { src: "/video1.mp4", alt: "Video 1" },
   { src: "/video2.mp4", alt: "Video 2" },
   { src: "/video3.mp4", alt: "Video 3" },
+  { src: "/video4.mp4", alt: "Video 4" },
+  { src: "/video5.mp4", alt: "Video 5" },
+  { src: "/video6.mp4", alt: "Video 6" },
+  { src: "/video7.mp4", alt: "Video 7" },
+  { src: "/video8.mp4", alt: "Video 8" },
 ];
 
 const Videos = () => {
@@ -16,7 +21,7 @@ const Videos = () => {
             वीडियो (Videos)
           </h2>
           <p className="mt-4 text-xl text-gray-500">
-            हमारे उपचार और सेवाओं के बारे में जानें
+            हमारे द्वारा लगातार निशुल्क चिकित्सा शिविर व जागरूकता कार्यक्रम की कुछ झलक
           </p>
         </div>
 
@@ -48,7 +53,7 @@ const Videos = () => {
         </div>
 
       </div>
-    </section>
+    </section >
   );
 };
 
