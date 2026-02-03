@@ -21,7 +21,7 @@ const AboutDoctor = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white transition-transform duration-500">
               <img
                 src="/doctor-real.png"
-                alt="Dr. Chandra Prakash Prajapati - Cosmetologist"
+                alt="Dr. Chandra Prakash Prajapati - Cosmetologist (Mumbai)"
                 className="w-full h-auto object-cover"
               />
             </div>
@@ -57,12 +57,12 @@ const AboutDoctor = () => {
 
             <h3 className="text-xl text-blue-600 font-semibold mb-6 flex items-center">
               <GraduationCap className="w-6 h-6 mr-2" />
-              BHMS, Senior Cosmetologist & Skin Consultant
+              BHMS, Cosmetologist (Mumbai) & Skin Consultant
             </h3>
 
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
               <p>
-                डॉ. चंद्र प्रकाश प्रजापति एक प्रतिष्ठित और अनुभवी चिकित्सक हैं, जिन्होंने अपनी शिक्षा (BHMS) और कॉस्मेटिक्स की विशेषज्ञता मुंबई के एक प्रतिष्ठित संस्थान से प्राप्त की है। वे होम्योपैथी और एडवांस कॉस्मेटोलॉजी के क्षेत्र में एक विश्वसनीय नाम हैं। डॉ. प्रजापति ने विशेष रूप से <span className="font-bold text-blue-700">गुर्दा पथरी (Kidney Stone), बांझपन (Infertility), स्तन की गांठ (Breast Lump), बच्चेदानी की गांठ (Uterine Fibroid), बवासीर (Piles) और विभिन्न चर्म रोगों (Skin Diseases)</span> के सफल और सुरक्षित उपचार में महारत हासिल की है।
+                डॉ. चंद्र प्रकाश प्रजापति एक प्रतिष्ठित और अनुभवी चिकित्सक हैं, जिन्होंने अपनी शिक्षा (BHMS) और कॉस्मेटोलॉजी (Cosmetology) की विशेषज्ञता मुंबई के एक प्रतिष्ठित संस्थान से प्राप्त की है। वे होम्योपैथी और एडवांस कॉस्मेटोलॉजी के क्षेत्र में एक विश्वसनीय नाम हैं। डॉ. प्रजापति ने विशेष रूप से <span className="font-bold text-blue-700">गुर्दा पथरी (Kidney Stone), बांझपन (Infertility), स्तन की गांठ (Breast Lump), बच्चेदानी की गांठ (Uterine Fibroid), बवासीर (Piles) और विभिन्न चर्म रोगों (Skin Diseases)</span> के सफल और सुरक्षित उपचार में महारत हासिल की है।
               </p>
               <p>
                 वे पिछले 14 से अधिक वर्षों से चिकित्सा के क्षेत्र में कार्यरत हैं और उनका दृष्टिकोण पूर्णतः मरीजों के प्रति समर्पित है, जहाँ वे प्रत्येक मरीज की समस्या को गहराई से समझते हुए उन्हें सटीक निदान और प्रभावी समाधान प्रदान करते हैं। उनका मानना है कि सच्ची सुंदरता स्वस्थ त्वचा और आत्मविश्वास से आती है, इसलिए उनका उपचार प्राकृतिक, प्रभावी और दीर्घकालिक परिणामों पर केंद्रित रहता है।
