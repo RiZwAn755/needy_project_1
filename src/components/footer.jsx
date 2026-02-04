@@ -20,14 +20,14 @@ const Footer = () => {
                             Providing effective and natural homeopathic treatments for all your health needs.
                         </p>
                         <div className="flex space-x-4">
-                            <a href="https://www.facebook.com/chandra.prakash.562114" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors bg-gray-900 p-2 rounded-full">
-                                <Facebook className="h-5 w-5" />
+                            <a href="https://www.facebook.com/chandra.prakash.562114" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors bg-gray-900 p-2 rounded-full" aria-label="Facebook पर हमें फॉलो करें">
+                                <Facebook className="h-5 w-5" aria-hidden="true" />
                             </a>
-                            <a href="#" className="text-gray-400 hover:text-red-500 transition-colors bg-gray-900 p-2 rounded-full">
-                                <Twitter className="h-5 w-5" />
+                            <a href="#" className="text-gray-400 hover:text-red-500 transition-colors bg-gray-900 p-2 rounded-full" aria-label="Twitter पर हमें फॉलो करें">
+                                <Twitter className="h-5 w-5" aria-hidden="true" />
                             </a>
-                            <a href="https://www.instagram.com/drchandraprakash_" className="text-gray-400 hover:text-red-500 transition-colors bg-gray-900 p-2 rounded-full">
-                                <Instagram className="h-5 w-5" />
+                            <a href="https://www.instagram.com/drchandraprakash_" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors bg-gray-900 p-2 rounded-full" aria-label="Instagram पर हमें फॉलो करें">
+                                <Instagram className="h-5 w-5" aria-hidden="true" />
                             </a>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ const Footer = () => {
                             {['Allergy Treatment', 'Migraine & Headache', 'Thyroid Care', 'Skin Care Treatment'].map((item) => (
                                 <li key={item}>
                                     <a href="#treatments" className="text-gray-400 hover:text-red-400 transition-colors text-sm flex items-center">
-                                        <ArrowRight className="h-3 w-3 mr-2 text-red-600" />
+                                        <ArrowRight className="h-3 w-3 mr-2 text-red-600" aria-hidden="true" />
                                         {item}
                                     </a>
                                 </li>
@@ -59,7 +59,7 @@ const Footer = () => {
                             ].map((item) => (
                                 <li key={item.name}>
                                     <a href={item.link} className="text-gray-400 hover:text-red-400 transition-colors text-sm flex items-center">
-                                        <ArrowRight className="h-3 w-3 mr-2 text-red-600" />
+                                        <ArrowRight className="h-3 w-3 mr-2 text-red-600" aria-hidden="true" />
                                         {item.name}
                                     </a>
                                 </li>
@@ -72,7 +72,7 @@ const Footer = () => {
                         <h3 className="text-lg font-bold mb-6 text-white border-b-2 border-red-600 pb-2 inline-block">Contact Us</h3>
                         <ul className="space-y-6">
                             <li className="flex items-start">
-                                <MapPin className="h-5 w-5 text-red-500 mr-3 mt-1 flex-shrink-0" />
+                                <MapPin className="h-5 w-5 text-red-500 mr-3 mt-1 flex-shrink-0" aria-hidden="true" />
                                 <span className="text-gray-400 text-sm">
                                     Near Shrikrishna Nagar Railway Station,<br />
                                     Sarveshwari School ke samne,<br />
@@ -80,15 +80,15 @@ const Footer = () => {
                                 </span>
                             </li>
                             <li className="flex items-center">
-                                <Mail className="h-5 w-5 text-red-500 mr-3 flex-shrink-0" />
+                                <Mail className="h-5 w-5 text-red-500 mr-3 flex-shrink-0" aria-hidden="true" />
                                 <a href="mailto:drsp1136@gmail.com" className="text-gray-400 hover:text-white text-sm">dr.chandraprakash4700@gmail.com</a>
                             </li>
                             <li className="flex items-center">
-                                <Phone className="h-5 w-5 text-red-500 mr-3 flex-shrink-0" />
+                                <Phone className="h-5 w-5 text-red-500 mr-3 flex-shrink-0" aria-hidden="true" />
                                 <a href="tel:+919451108552" className="text-gray-400 hover:text-white text-sm">+91-9919914700</a>
                             </li>
                             <li className="flex items-center">
-                                <Clock className="h-5 w-5 text-red-500 mr-3 flex-shrink-0" />
+                                <Clock className="h-5 w-5 text-red-500 mr-3 flex-shrink-0" aria-hidden="true" />
                                 <span className="text-gray-400 text-sm">Mon - Sat: 9-1 & 3-6</span>
                             </li>
                         </ul>

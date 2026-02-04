@@ -45,7 +45,7 @@ const ContactUs = () => {
                             {/* Doctor Name */}
                             <div className="flex items-start space-x-4">
                                 <div className="bg-yellow-100 p-3 rounded-full text-yellow-600">
-                                    <Leaf className="w-6 h-6" />
+                                    <Leaf className="w-6 h-6" aria-hidden="true" />
                                 </div>
                                 <div>
                                     <p className="font-medium text-gray-900">डॉक्टर</p>
@@ -55,7 +55,7 @@ const ContactUs = () => {
 
                             <div className="flex items-start space-x-4">
                                 <div className="bg-blue-100 p-3 rounded-full text-blue-600">
-                                    <Phone className="w-6 h-6" />
+                                    <Phone className="w-6 h-6" aria-hidden="true" />
                                 </div>
                                 <div>
                                     <p className="font-medium text-gray-900">कॉल करें</p>
@@ -64,7 +64,7 @@ const ContactUs = () => {
                             </div>
                             <div className="flex items-start space-x-4">
                                 <div className="bg-red-100 p-3 rounded-full text-red-600">
-                                    <Mail className="w-6 h-6" />
+                                    <Mail className="w-6 h-6" aria-hidden="true" />
                                 </div>
                                 <div>
                                     <p className="font-medium text-gray-900">ईमेल</p>
@@ -73,7 +73,7 @@ const ContactUs = () => {
                             </div>
                             <div className="flex items-start space-x-4">
                                 <div className="bg-purple-100 p-3 rounded-full text-purple-600">
-                                    <MapPin className="w-6 h-6" />
+                                    <MapPin className="w-6 h-6" aria-hidden="true" />
                                 </div>
                                 <div>
                                     <p className="font-medium text-gray-900">क्लिनिक</p>
@@ -86,7 +86,7 @@ const ContactUs = () => {
                             </div>
                             <div className="flex items-start space-x-4">
                                 <div className="bg-green-100 p-3 rounded-full text-green-600">
-                                    <Clock className="w-6 h-6" />
+                                    <Clock className="w-6 h-6" aria-hidden="true" />
                                 </div>
                                 <div>
                                     <p className="font-medium text-gray-900">समय</p>
@@ -119,13 +119,13 @@ const ContactUs = () => {
                                 <textarea id="message" rows={4} value={formData.message} onChange={handleChange} className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 bg-gray-50 border p-3" placeholder="अपनी समस्या संक्षेप में लिखें..." required></textarea>
                             </div>
                             <button type="submit" className="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors">
-                                संदेश भेजें <Send className="ml-2 w-4 h-4" />
+                                संदेश भेजें <Send className="ml-2 w-4 h-4" aria-hidden="true" />
                             </button>
                         </form>
                     </motion.div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

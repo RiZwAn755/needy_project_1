@@ -21,6 +21,7 @@ const MapPage = () => {
                     className="relative w-full h-96 rounded-xl overflow-hidden shadow-lg border"
                 >
                     <iframe
+                        title="Ma Gayatri Homeo Clinic - Google Maps Location"
                         className="absolute inset-0 w-full h-full"
                         src="https://www.google.com/maps?q=माँ+गायत्री+होमियो+क्लिनिक+Badlapur+Jaunpur+Uttar+Pradesh&output=embed"
                         allowFullScreen

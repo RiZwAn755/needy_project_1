@@ -33,7 +33,7 @@ const AboutDoctor = () => {
             {/* Experience Badge */}
             <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-xl shadow-xl border border-blue-100 flex items-center space-x-3 animate-bounce-slow">
               <div className="bg-blue-100 p-3 rounded-full">
-                <Clock className="w-8 h-8 text-blue-600" />
+                <Clock className="w-8 h-8 text-blue-600" aria-hidden="true" />
               </div>
               <div>
                 <p className="text-3xl font-bold text-gray-900">14+</p>
@@ -60,7 +60,7 @@ const AboutDoctor = () => {
             </h2>
 
             <h3 className="text-xl text-blue-600 font-semibold mb-6 flex items-center">
-              <GraduationCap className="w-6 h-6 mr-2" />
+              <GraduationCap className="w-6 h-6 mr-2" aria-hidden="true" />
               BHMS, Cosmetologist (Mumbai)
             </h3>
 
@@ -76,7 +76,7 @@ const AboutDoctor = () => {
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
 
               <div className="flex items-center p-4 bg-white rounded-lg shadow-sm border border-gray-100">
-                <Stethoscope className="w-10 h-10 text-red-500 mr-4" />
+                <Stethoscope className="w-10 h-10 text-red-500 mr-4" aria-hidden="true" />
                 <div>
                   <p className="font-bold text-gray-900">
                     प्रमुख उपचार (Key Treatments)
@@ -88,7 +88,7 @@ const AboutDoctor = () => {
               </div>
 
               <div className="flex items-center p-4 bg-white rounded-lg shadow-sm border border-gray-100">
-                <Award className="w-10 h-10 text-yellow-500 mr-4" />
+                <Award className="w-10 h-10 text-yellow-500 mr-4" aria-hidden="true" />
                 <div>
                   <p className="font-bold text-gray-900">
                     त्वचा एवं सौंदर्य (Skin Care)

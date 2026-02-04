@@ -24,7 +24,7 @@ const FatherOfHomeopathy = () => {
           >
             <div className="flex items-center mb-4">
               <div className="bg-blue-100 p-3 rounded-full mr-4">
-                <BookOpen className="w-7 h-7 text-blue-600" />
+                <BookOpen className="w-7 h-7 text-blue-600" aria-hidden="true" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900">
                 डॉ. सैमुअल हैनिमैन
@@ -54,7 +54,7 @@ const FatherOfHomeopathy = () => {
             {/* Philosophy Box */}
             <div className="mt-8 p-6 bg-white rounded-xl border border-blue-100 shadow-sm">
               <div className="flex items-start">
-                <Quote className="w-6 h-6 text-blue-500 mr-3 mt-1" />
+                <Quote className="w-6 h-6 text-blue-500 mr-3 mt-1" aria-hidden="true" />
                 <p className="text-gray-700 font-medium">
                   होम्योपैथी का उद्देश्य शरीर की प्राकृतिक उपचार शक्ति को जागृत
                   करना है।

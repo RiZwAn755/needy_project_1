@@ -40,7 +40,7 @@ const HomePage = () => {
                                     className="flex items-center justify-center px-6 py-2 sm:px-8 sm:py-3 text-sm sm:text-base font-medium text-white bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 md:py-4 md:text-lg md:px-10 transition-transform transform hover:scale-105"
                                 >
                                     अपॉइंटमेंट बुक करें
-                                    <ArrowRight className="ml-2 w-5 h-5" />
+                                    <ArrowRight className="ml-2 w-5 h-5" aria-hidden="true" />
                                 </a>
                             </div>
                             <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -82,7 +82,7 @@ const HomePage = () => {
                             <div className="absolute bottom-0 left-4 right-4 bg-white/90 backdrop-blur-md p-4 rounded-xl shadow-lg border border-red-100">
                                 <div className="flex items-center space-x-3">
                                     <div className="p-2 bg-red-100 rounded-full">
-                                        <Heart className="w-6 h-6 text-red-600" />
+                                        <Heart className="w-6 h-6 text-red-600" aria-hidden="true" />
                                     </div>
                                     <div>
                                         <p className="font-bold text-gray-900 text-sm">डॉ. चंद्र प्रकाश प्रजापति</p>
