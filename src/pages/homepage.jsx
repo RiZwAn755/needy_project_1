@@ -105,21 +105,19 @@ const HomePage = () => {
                 <FatherOfHomeopathy />
             </section>
 
-            <section id="services">
-                <Services />
-            </section>
-
             <section id="appointment">
                 <Appointment />
+            </section>
+
+            <section id="services">
+                <Services />
             </section>
 
             <section id="gallery">
                 <Gallery />
             </section>
 
-            <section id="videos">
-                <Videos />
-            </section>
+
 
             <section id="achievements">
                 <Achievements />
@@ -135,6 +133,10 @@ const HomePage = () => {
 
             <section id="map">
                 <MapPage />
+            </section>
+
+            <section id="videos">
+                <Videos />
             </section>
 
         </div>
