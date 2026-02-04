@@ -109,9 +109,6 @@ const HomePage = () => {
                 <Appointment />
             </section>
 
-            <section id="services">
-                <Services />
-            </section>
 
             <section id="gallery">
                 <Gallery />
@@ -125,6 +122,10 @@ const HomePage = () => {
 
             <section id="feedback">
                 <Feedback />
+            </section>
+
+            <section id="services">
+                <Services />
             </section>
 
             <section id="contact">
