@@ -20,7 +20,7 @@ const Footer = () => {
                             Providing effective and natural homeopathic treatments for all your health needs.
                         </p>
                         <div className="flex space-x-4">
-                            <a href="#" className="text-gray-400 hover:text-red-500 transition-colors bg-gray-900 p-2 rounded-full">
+                            <a href="https://www.facebook.com/chandra.prakash.562114" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors bg-gray-900 p-2 rounded-full">
                                 <Facebook className="h-5 w-5" />
                             </a>
                             <a href="#" className="text-gray-400 hover:text-red-500 transition-colors bg-gray-900 p-2 rounded-full">
