@@ -73,9 +73,11 @@ const FatherOfHomeopathy = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white w-72 sm:w-80 lg:w-96">
               <img
-                src="/father.jpg"
+                src="/father.webp"
                 alt="Dr. Samuel Hahnemann - Father of Homeopathy"
                 className="w-full h-auto object-cover"
+                loading="lazy"
+                decoding="async"
               />
             </div>
 

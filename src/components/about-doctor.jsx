@@ -20,9 +20,13 @@ const AboutDoctor = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white transition-transform duration-500">
               <img
-                src="/doctor-real.png"
+                src="/doctor-real.webp"
                 alt="Dr. Chandra Prakash Prajapati - Cosmetologist (Mumbai)"
                 className="w-full h-auto object-cover"
+                loading="lazy"
+                decoding="async"
+                width="400"
+                height="500"
               />
             </div>
 

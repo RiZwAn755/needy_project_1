@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
 
 const images = [
-    
-    { src: '/clinic-1.png', alt: 'Clinic Waiting Area' },
-    { src: '/gallery-2.png', alt: 'Homeopathic Medicines' },
-    { src: '/clinic-2.png', alt: 'Patient Consultation' }, // Placeholder for the 3rd image
+
+    { src: '/clinic-1.webp', alt: 'Clinic Waiting Area' },
+    { src: '/gallery-2.webp', alt: 'Homeopathic Medicines' },
+    { src: '/clinic-2.webp', alt: 'Patient Consultation' }, // Placeholder for the 3rd image
 ];
 
 const Gallery = () => {
@@ -34,6 +34,8 @@ const Gallery = () => {
                                 src={img.src}
                                 alt={img.alt}
                                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                loading="lazy"
+                                decoding="async"
                                 onError={(e) => { e.target.src = 'https://via.placeholder.com/400?text=Image+Coming+Soon'; }}
                             />
                             <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">

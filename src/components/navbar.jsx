@@ -19,10 +19,12 @@ const Navbar = () => {
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="#home" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img
-                        src="/logo.png"
+                        src="/logo.webp"
                         alt="माँ गायत्री होमियो क्लिनिक"
                         className="h-10 w-10 object-contain rounded-full border border-gray-200"
-
+                        width="40"
+                        height="40"
+                        decoding="async"
                     />
                     <span className="self-center text-xl sm:text-3xl font-bold whitespace-nowrap text-red-800">
                         माँ गायत्री <span className="text-blue-600">होमियो क्लिनिक</span>

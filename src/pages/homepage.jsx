@@ -69,9 +69,13 @@ const HomePage = () => {
                             style={{ maskImage: 'radial-gradient(circle at center, black 60%, transparent 100%)', WebkitMaskImage: 'radial-gradient(circle at center, black 60%, transparent 100%)' }}
                         >
                             <img
-                                src="/doctor-real.png"
+                                src="/doctor-real.webp"
                                 alt="Dr. Chandra Prakash Prajapati - Homeopathic Doctor"
                                 className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700"
+                                fetchpriority="high"
+                                decoding="async"
+                                width="400"
+                                height="500"
                             />
 
                             {/* Overlay Badge */}

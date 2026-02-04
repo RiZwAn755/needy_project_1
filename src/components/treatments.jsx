@@ -1,4 +1,4 @@
-import { Thermometer, Zap, Droplet, Sun, Wind, Activity, Heart, Shield} from "lucide-react";
+import { Thermometer, Zap, Droplet, Sun, Wind, Activity, Heart, Shield } from "lucide-react";
 
 const treatments = [
     {
@@ -39,9 +39,11 @@ const Treatments = () => {
             {/* Decorative Background */}
             <div className="absolute top-0 right-0 w-1/3 h-full opacity-5 pointer-events-none">
                 <img
-                    src="/medical-decor.png"
+                    src="/medical-decor.webp"
                     alt="decor"
                     className="w-full h-full object-cover mix-blend-multiply"
+                    loading="lazy"
+                    decoding="async"
                 />
             </div>
 
@@ -80,6 +82,8 @@ const Treatments = () => {
                                     src={treatment.image}
                                     alt={treatment.title}
                                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                                    loading="lazy"
+                                    decoding="async"
                                 />
 
                                 <div className="absolute top-4 right-4 z-20 bg-white p-2 rounded-full shadow-lg">

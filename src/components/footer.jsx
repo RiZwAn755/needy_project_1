@@ -9,7 +9,7 @@ const Footer = () => {
                     <div>
                         <div className="flex items-center mb-6">
                             <div className="mr-3">
-                                <img src="/logo.png" alt="Logo" className="h-10 w-10 object-contain rounded-full border border-gray-600" />
+                                <img src="/logo.webp" alt="Logo" className="h-10 w-10 object-contain rounded-full border border-gray-600" loading="lazy" width="40" height="40" decoding="async" />
                             </div>
                             <span className="text-xl font-bold">Ma Gayatri Homeo Clinic</span>
                         </div>
