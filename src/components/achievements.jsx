@@ -18,6 +18,11 @@ import { motion } from 'framer-motion';
 
 const achievements = [
     {
+        src: '/with vijayGoyal.jpeg',
+        alt: 'भारतश्री अवॉर्ड (BharatShri Award)',
+        description: ' विजय गोयल, गांधी स्मृति और दर्शन समिति (नई दिल्ली) के उपाध्यक्ष, के द्वारा भारत श्री अवॉर्ड से सम्मानित।'
+    },
+    {
         src: '/WhatsApp Image 2026-01-25 at 20.43.55.jpeg',
         alt: 'बिहार होमियो आइकन',
         description: 'बिहार होमियो आइकन के रूप में होम्योपैथी के क्षेत्र में विशेष योगदान के लिए सम्मान।'
