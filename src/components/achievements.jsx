@@ -18,10 +18,20 @@ import { m } from 'framer-motion';
 
 const achievements = [
     {
+        src: '/seema_d.jpeg',
+        alt: 'राज्यसभा सांसद सीमा द्विवेदी का आगमन',
+        description: 'हमारे क्लिनिक पर राज्यसभा सांसद सीमा द्विवेदी जी का आगमन।'
+    },
+    {
+        src: '/homeoshakti_2026_lucknow.jpeg',
+        alt: 'होम्योशक्ति अवॉर्ड, लखनऊ 2026',
+        description: 'होम्योशक्ति अवॉर्ड, लखनऊ 2026 में सम्मानित।'
+    },
+     {
         src: 'award-vijay-goyal',
         alt: 'भारतश्री अवॉर्ड (BharatShri Award)',
         description: ' विजय गोयल, गांधी स्मृति और दर्शन समिति (नई दिल्ली) के उपाध्यक्ष, के द्वारा भारत श्री अवॉर्ड से सम्मानित।'
-    },
+     },
     {
         src: 'award-1',
         alt: 'बिहार होमियो आइकन',
