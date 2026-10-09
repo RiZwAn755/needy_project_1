@@ -18,12 +18,12 @@ import { m } from 'framer-motion';
 
 const achievements = [
     {
-        src: '/seema_d.jpeg',
+        src: 'award-seema-dwivedi',
         alt: 'राज्यसभा सांसद सीमा द्विवेदी का आगमन',
         description: 'हमारे क्लिनिक पर राज्यसभा सांसद सीमा द्विवेदी जी का आगमन।'
     },
     {
-        src: '/homeoshakti_2026_lucknow.jpeg',
+        src: 'award-homeoshakti-2026',
         alt: 'होम्योशक्ति अवॉर्ड, लखनऊ 2026',
         description: 'होम्योशक्ति अवॉर्ड, लखनऊ 2026 में सम्मानित।'
     },

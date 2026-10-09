@@ -31,6 +31,8 @@ const images = [
     ['gallery-2.png', 'gallery-2', [400, 800], 72],
     ['medical-decor.png', 'medical-decor', [600], 60],
     ['vijayGoyal.jpeg', 'award-vijay-goyal', [480, 800], 72],
+    ['seema_d.jpeg', 'award-seema-dwivedi', [480, 800], 72],
+    ['homeoshakti_2026_lucknow.jpeg', 'award-homeoshakti-2026', [480, 800], 72],
     ['WhatsApp Image 2026-01-25 at 20.43.55.jpeg', 'award-1', [480, 800], 72],
     ['WhatsApp Image 2026-01-25 at 20.43.56.jpeg', 'award-2', [480, 800], 72],
     ['WhatsApp Image 2026-01-25 at 20.43.58.jpeg', 'award-3', [480, 800], 72],
