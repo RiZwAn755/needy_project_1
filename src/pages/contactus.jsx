@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 import { Mail, Phone, MapPin, Send, Leaf, Clock } from 'lucide-react';
 
 const ContactUs = () => {
@@ -34,7 +34,7 @@ const ContactUs = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {/* Contact Info */}
-                    <motion.div
+                    <m.div
                         initial={{ opacity: 0, x: -30 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.6 }}
@@ -96,10 +96,10 @@ const ContactUs = () => {
                                 </div>
                             </div>
                         </div>
-                    </motion.div>
+                    </m.div>
 
                     {/* Contact Form */}
-                    <motion.div
+                    <m.div
                         initial={{ opacity: 0, x: 30 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.6 }}
@@ -122,7 +122,7 @@ const ContactUs = () => {
                                 संदेश भेजें <Send className="ml-2 w-4 h-4" aria-hidden="true" />
                             </button>
                         </form>
-                    </motion.div>
+                    </m.div>
                 </div>
             </div>
         </div >

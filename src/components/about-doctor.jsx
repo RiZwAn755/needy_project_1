@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from 'framer-motion';
 import { Award, GraduationCap, Stethoscope, Clock } from "lucide-react";
 
 const AboutDoctor = () => {
@@ -11,7 +11,7 @@ const AboutDoctor = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Image Section */}
-          <motion.div
+          <m.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
@@ -20,13 +20,15 @@ const AboutDoctor = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white transition-transform duration-500">
               <img
-                src="/doctor-real.webp"
+                src="/img/doctor-real-800.webp"
+                srcSet="/img/doctor-real-480.webp 480w, /img/doctor-real-800.webp 800w, /img/doctor-real-1200.webp 1200w"
+                sizes="(min-width: 1280px) 600px, (min-width: 1024px) 50vw, 100vw"
                 alt="Dr. Chandra Prakash Prajapati - Cosmetologist (Mumbai)"
                 className="w-full h-auto object-cover"
                 loading="lazy"
                 decoding="async"
-                width="400"
-                height="500"
+                width="800"
+                height="806"
               />
             </div>
 
@@ -42,10 +44,10 @@ const AboutDoctor = () => {
                 </p>
               </div>
             </div>
-          </motion.div>
+          </m.div>
 
           {/* Content Section */}
-          <motion.div
+          <m.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
@@ -99,7 +101,7 @@ const AboutDoctor = () => {
                 </div>
               </div>
             </div>
-          </motion.div>
+          </m.div>
         </div>
       </div>
     </div>

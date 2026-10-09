@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 import { Calendar, Clock, User, Phone, Stethoscope, Send } from 'lucide-react';
 
 const Appointment = () => {
@@ -35,7 +35,7 @@ const Appointment = () => {
     return (
         <div className="py-24 relative overflow-hidden">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                <motion.div
+                <m.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
@@ -157,7 +157,7 @@ const Appointment = () => {
                             </button>
                         </div>
                     </form>
-                </motion.div>
+                </m.div>
             </div>
         </div>
     );

@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 import { ArrowRight, Activity, Heart, Shield } from 'lucide-react';
 // Import other sections
 import Treatments from '../components/treatments';
@@ -21,9 +21,9 @@ const HomePage = () => {
             <section id="home" className="relative px-4 py-16 mx-auto sm:px-6 lg:px-8 max-w-7xl lg:py-24">
                 {/* ... (hero content) ... */}
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-8 items-center">
-                    <motion.div
-                        initial={{ opacity: 0, x: -50 }}
-                        animate={{ opacity: 1, x: 0 }}
+                    <m.div
+                        initial={{ x: -50 }}
+                        animate={{ x: 0 }}
                         transition={{ duration: 0.8 }}
                     >
                         <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
@@ -52,11 +52,11 @@ const HomePage = () => {
                                 </a>
                             </div>
                         </div>
-                    </motion.div>
+                    </m.div>
 
-                    <motion.div
-                        initial={{ opacity: 0, scale: 0.8 }}
-                        animate={{ opacity: 1, scale: 1 }}
+                    <m.div
+                        initial={{ scale: 0.8 }}
+                        animate={{ scale: 1 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
                         className="relative"
                     >
@@ -69,13 +69,14 @@ const HomePage = () => {
                             style={{ maskImage: 'radial-gradient(circle at center, black 60%, transparent 100%)', WebkitMaskImage: 'radial-gradient(circle at center, black 60%, transparent 100%)' }}
                         >
                             <img
-                                src="/doctor-real.webp"
+                                src="/img/doctor-real-800.webp"
+                                srcSet="/img/doctor-real-480.webp 480w, /img/doctor-real-800.webp 800w, /img/doctor-real-1200.webp 1200w"
+                                sizes="(min-width: 1280px) 600px, (min-width: 1024px) 50vw, 100vw"
                                 alt="Dr. Chandra Prakash Prajapati - Homeopathic Doctor"
                                 className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700"
-                                fetchpriority="high"
-                                decoding="async"
-                                width="400"
-                                height="500"
+                                fetchPriority="high"
+                                width="800"
+                                height="806"
                             />
 
                             {/* Overlay Badge */}
@@ -92,7 +93,7 @@ const HomePage = () => {
                                 </div>
                             </div>
                         </div>
-                    </motion.div>
+                    </m.div>
                 </div>
             </section>
 

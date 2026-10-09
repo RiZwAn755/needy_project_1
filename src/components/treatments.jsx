@@ -39,7 +39,7 @@ const Treatments = () => {
             {/* Decorative Background */}
             <div className="absolute top-0 right-0 w-1/3 h-full opacity-5 pointer-events-none">
                 <img
-                    src="/medical-decor.webp"
+                    src="/img/medical-decor-600.webp"
                     alt="decor"
                     className="w-full h-full object-cover mix-blend-multiply"
                     loading="lazy"

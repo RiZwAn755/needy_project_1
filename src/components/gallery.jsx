@@ -1,10 +1,10 @@
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 
 const images = [
 
-    { src: '/clinic-1.webp', alt: 'Clinic Waiting Area' },
-    { src: '/gallery-2.webp', alt: 'Homeopathic Medicines' },
-    { src: '/clinic-2.webp', alt: 'Patient Consultation' }, // Placeholder for the 3rd image
+    { src: 'clinic-1', alt: 'Clinic Waiting Area' },
+    { src: 'gallery-2', alt: 'Homeopathic Medicines' },
+    { src: 'clinic-2', alt: 'Patient Consultation' }, // Placeholder for the 3rd image
 ];
 
 const Gallery = () => {
@@ -22,7 +22,7 @@ const Gallery = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {images.map((img, index) => (
-                        <motion.div
+                        <m.div
                             key={index}
                             initial={{ opacity: 0, scale: 0.9 }}
                             whileInView={{ opacity: 1, scale: 1 }}
@@ -31,8 +31,12 @@ const Gallery = () => {
                             className="relative aspect-square rounded-2xl overflow-hidden glass shadow-lg cursor-pointer group"
                         >
                             <img
-                                src={img.src}
+                                src={`/img/${img.src}-800.webp`}
+                                srcSet={`/img/${img.src}-400.webp 400w, /img/${img.src}-800.webp 800w`}
+                                sizes="(min-width: 1024px) 300px, (min-width: 768px) 50vw, 100vw"
                                 alt={img.alt}
+                                width="800"
+                                height="800"
                                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                                 loading="lazy"
                                 decoding="async"
@@ -41,7 +45,7 @@ const Gallery = () => {
                             <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                                 <p className="text-white font-medium text-center px-4">{img.alt}</p>
                             </div>
-                        </motion.div>
+                        </m.div>
                     ))}
                 </div>
             </div>

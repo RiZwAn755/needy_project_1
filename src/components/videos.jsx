@@ -1,14 +1,14 @@
-import { motion } from "framer-motion";
+import { m } from 'framer-motion';
 
 const videos = [
-  { src: "/video1.mp4", alt: "Video 1" },
-  { src: "/video2.mp4", alt: "Video 2" },
-  { src: "/video3.mp4", alt: "Video 3" },
-  { src: "/video4.mp4", alt: "Video 4" },
-  { src: "/video5.mp4", alt: "Video 5" },
-  { src: "/video6.mp4", alt: "Video 6" },
-  { src: "/video7.mp4", alt: "Video 7" },
-  { src: "/video8.mp4", alt: "Video 8" },
+  { src: "video1", alt: "Video 1" },
+  { src: "video2", alt: "Video 2" },
+  { src: "video3", alt: "Video 3" },
+  { src: "video4", alt: "Video 4" },
+  { src: "video5", alt: "Video 5" },
+  { src: "video6", alt: "Video 6" },
+  { src: "video7", alt: "Video 7" },
+  { src: "video8", alt: "Video 8" },
 ];
 
 const Videos = () => {
@@ -27,7 +27,7 @@ const Videos = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {videos.map((vid, index) => (
-            <motion.div
+            <m.div
               key={index}
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -36,11 +36,12 @@ const Videos = () => {
               className="relative aspect-video rounded-2xl overflow-hidden shadow-lg bg-black group"
             >
               <video
-                src={vid.src}
+                src={`/videos/${vid.src}.mp4`}
+                poster={`/videos/${vid.src}-poster.webp`}
                 className="absolute inset-0 w-full h-full object-cover"
                 controls
                 playsInline
-                preload="metadata"
+                preload="none"
               />
 
               <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
@@ -48,7 +49,7 @@ const Videos = () => {
                   {vid.alt}
                 </p>
               </div>
-            </motion.div>
+            </m.div>
           ))}
         </div>
 

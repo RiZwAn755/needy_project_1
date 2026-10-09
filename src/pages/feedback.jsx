@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 import { Star, Quote } from 'lucide-react';
 
 const testimonials = [
@@ -49,7 +49,7 @@ const Feedback = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {testimonials.map((item, index) => (
-                        <motion.div
+                        <m.div
                             key={index}
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
@@ -64,7 +64,7 @@ const Feedback = () => {
                             </div>
                             <p className="text-gray-600 italic mb-6">"{item.text}"</p>
                             <div className="font-bold text-gray-900">- {item.name}</div>
-                        </motion.div>
+                        </m.div>
                     ))}
                 </div>
             </div>

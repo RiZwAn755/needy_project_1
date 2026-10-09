@@ -1,7 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { Menu, X, Leaf } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +17,7 @@ const Navbar = () => {
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="#home" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img
-                        src="/logo.webp"
+                        src="/img/logo-128.webp"
                         alt="माँ गायत्री होमियो क्लिनिक"
                         className="h-10 w-10 object-contain rounded-full border border-gray-200"
                         width="40"

@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 
 const MapPage = () => {
     return (
@@ -14,7 +14,7 @@ const MapPage = () => {
                     </p>
                 </div>
 
-                <motion.div
+                <m.div
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
@@ -27,7 +27,7 @@ const MapPage = () => {
                         allowFullScreen
                         loading="lazy"
                     ></iframe>
-                </motion.div>
+                </m.div>
 
                 <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                     <div className="p-6 bg-blue-50 rounded-lg">

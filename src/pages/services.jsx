@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 import { CheckCircle } from 'lucide-react';
 
 const services = [
@@ -22,7 +22,7 @@ const Services = () => {
                 <div className="mt-10">
                     <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
                         {services.map((service, index) => (
-                            <motion.div
+                            <m.div
                                 key={service.title}
                                 initial={{ opacity: 0, x: index % 2 === 0 ? -20 : 20 }}
                                 whileInView={{ opacity: 1, x: 0 }}
@@ -38,7 +38,7 @@ const Services = () => {
                                 <dd className="mt-2 ml-16 text-base text-gray-500">
                                     {service.desc}
                                 </dd>
-                            </motion.div>
+                            </m.div>
                         ))}
                     </dl>
                 </div>

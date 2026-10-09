@@ -1,5 +1,5 @@
 import { BookOpen, Quote } from "lucide-react";
-import { motion } from "framer-motion";
+import { m } from 'framer-motion';
 
 const FatherOfHomeopathy = () => {
   return (
@@ -15,7 +15,7 @@ const FatherOfHomeopathy = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
           {/* CONTENT FIRST */}
-          <motion.div
+          <m.div
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7 }}
@@ -61,10 +61,10 @@ const FatherOfHomeopathy = () => {
                 </p>
               </div>
             </div>
-          </motion.div>
+          </m.div>
 
           {/* IMAGE SECOND */}
-          <motion.div
+          <m.div
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7 }}
@@ -73,11 +73,13 @@ const FatherOfHomeopathy = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white w-72 sm:w-80 lg:w-96">
               <img
-                src="/father.webp"
+                src="/img/father-225.webp"
                 alt="Dr. Samuel Hahnemann - Father of Homeopathy"
                 className="w-full h-auto object-cover"
                 loading="lazy"
                 decoding="async"
+                width="225"
+                height="225"
               />
             </div>
 
@@ -90,7 +92,7 @@ const FatherOfHomeopathy = () => {
                 — Dr. Samuel Hahnemann
               </p>
             </div>
-          </motion.div>
+          </m.div>
         </div>
       </div>
     </section>

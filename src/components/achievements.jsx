@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 
 // const achievements = [
 //     { src: '/WhatsApp Image 2026-01-25 at 20.43.55.jpeg', alt: 'पुरस्कार समारोह', description: 'होम्योपैथिक चिकित्सा में उत्कृष्टता के लिए सम्मानित।' },
@@ -18,54 +18,54 @@ import { motion } from 'framer-motion';
 
 const achievements = [
     {
-        src: '/vijayGoyal.webp',
+        src: 'award-vijay-goyal',
         alt: 'भारतश्री अवॉर्ड (BharatShri Award)',
         description: ' विजय गोयल, गांधी स्मृति और दर्शन समिति (नई दिल्ली) के उपाध्यक्ष, के द्वारा भारत श्री अवॉर्ड से सम्मानित।'
     },
     {
-        src: '/WhatsApp_Image_2026-01-25_at_20.43.55.webp',
+        src: 'award-1',
         alt: 'बिहार होमियो आइकन',
         description: 'बिहार होमियो आइकन के रूप में होम्योपैथी के क्षेत्र में विशेष योगदान के लिए सम्मान।'
     },
     {
-        src: '/WhatsApp_Image_2026-01-25_at_20.43.56.webp',
+        src: 'award-2',
         alt: 'विश्व प्रसिद्ध डॉ. विश्वरूप राय चौधरी के साथ CME',
         description: 'विश्व प्रसिद्ध डॉ. विश्वरूप राय चौधरी के साथ CME में चिकित्सकीय चर्चा एवं अनुभव साझा करते हुए।'
     },
     {
-        src: '/WhatsApp_Image_2026-01-25_at_20.43.58.webp',
+        src: 'award-3',
         alt: 'डॉ. शशिप्रताप सिंह (शिवाय हॉस्पिटल) के साथ CME',
         description: 'डॉ. शशिप्रताप सिंह (शिवाय हॉस्पिटल) के साथ CME में चिकित्सा ज्ञान और अनुभव साझा करते हुए।'
     },
     {
-        src: '/WhatsApp_Image_2026-01-25_at_20.44.00.webp',
+        src: 'award-4',
         alt: 'राष्ट्रीय होम्योपैथिक पुरस्कार - डॉ. विक जाफरी (ऑस्ट्रेलिया) के द्वारा',
         description: 'होम्योपैथिक चिकित्सा में उत्कृष्ट कार्य के लिए डॉ. विक जाफरी (ऑस्ट्रेलिया) के द्वारा सम्मानित।'
     },
     {
-        src: '/WhatsApp_Image_2026-01-25_at_20.44.01.webp',
+        src: 'award-5',
         alt: 'बदलापुर महोत्सव में विधायक द्वारा सम्मान',
         description: 'प्रति वर्ष बदलापुर महोत्सव में किए जा रहे निशुल्क चिकित्सा सेवा और सामाजिक योगदान'
     },
     {
-        src: '/WhatsApp_Image_2026-01-25_at_20.44.12.webp',
+        src: 'award-9',
         alt: 'राष्ट्रीय होम्योपैथिक सेवारत्न पुरस्कार',
         description: 'होम्योपैथिक चिकित्सा और समाज सेवा में उत्कृष्ट योगदान के लिए राष्ट्रीय होम्योपैथिक सेवारत्न पुरस्कार से सम्मानित।'
     },
 
     {
-        src: '/WhatsApp_Image_2026-01-25_at_20.44.02.webp',
+        src: 'award-6',
         alt: 'होमियो यूथ आइकन',
         description: 'युवाओं को होम्योपैथी के प्रति प्रेरित करने के लिए होमियो यूथ आइकन सम्मान।'
     },
     {
-        src: '/WhatsApp_Image_2026-01-25_at_20.44.04.webp',
+        src: 'award-7',
         alt: 'होमियो हेल्थकेयर अवॉर्ड, बैंकॉक',
         description: 'बैंकॉक में आयोजित अंतर्राष्ट्रीय कार्यक्रम में उत्कृष्ट स्वास्थ्य सेवा के लिए होमियो हेल्थकेयर अवॉर्ड से सम्मानित।'
     },
 
     {
-        src: '/WhatsApp_Image_2026-01-25_at_20.44.06.webp',
+        src: 'award-8',
         alt: 'बदलापुर महोत्सव',
         description: 'बदलापुर महोत्सव में निःशुल्क चिकित्सा सेवा एवं सामाजिक योगदान का सम्मान।'
     },
@@ -87,7 +87,7 @@ const Achievements = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {achievements.map((item, index) => (
-                        <motion.div
+                        <m.div
                             key={index}
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
@@ -96,7 +96,9 @@ const Achievements = () => {
                         >
                             <div className="relative h-90 w-full overflow-hidden">
                                 <img
-                                    src={item.src}
+                                    src={`/img/${item.src}-800.webp`}
+                                    srcSet={`/img/${item.src}-480.webp 480w, /img/${item.src}-800.webp 800w`}
+                                    sizes="(min-width: 1280px) 400px, (min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                                     alt={item.alt}
                                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                                     loading="lazy"
@@ -108,7 +110,7 @@ const Achievements = () => {
                                 <h3 className="text-lg font-bold text-gray-900 mb-2">{item.alt}</h3>
                                 <p className="text-gray-600 line-clamp-2">{item.description}</p>
                             </div>
-                        </motion.div>
+                        </m.div>
                     ))}
                 </div>
             </div>
